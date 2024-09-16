@@ -1,0 +1,13 @@
+.storepage{
+ position: relative;
+ background-color: red;
+ width: 30rem;
+
+}
+.sendToBarmanTable{
+    width: 30rem;
+}
+.itemPrice{
+    width: 5rem;
+    outline: none;
+}

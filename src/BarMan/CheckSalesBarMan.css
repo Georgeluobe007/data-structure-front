@@ -1,0 +1,77 @@
+.tab-container{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+ 
+.tab-table{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem; 
+}
+
+.salesTable{
+  width: 20rem;
+  border: solid black .1rem;
+}
+
+.tab-key{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+}
+.returnee-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.returnee{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: .5rem;
+  width: 30rem;
+  border: solid black .1rem;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+.notTrue{
+  width: 5rem;
+  background-color: red;
+  height: 2rem;
+  color: white;
+  border: none;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+.yesitTrue{
+  width: 5rem;
+  height: 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-left: .5rem;
+  cursor: pointer;
+}
+.retunee-text{
+  font-size: 1rem;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.returnee-buttons{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}

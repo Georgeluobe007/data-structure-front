@@ -1,0 +1,55 @@
+.returnHead{
+    position: absolute;
+    background-color: whitesmoke;
+     width: 14rem;
+     height: 7rem;
+    margin-left: 20rem;
+    margin-right: 0;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+.retunContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.button-align{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+}
+.counter{
+    font-size: 1.2rem;
+    color: black;
+}
+.negative-btn{
+    background-color: blue;
+    color: white;
+    width: 3.5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+.negative-btn2{
+    background-color: blue;
+    color: white;
+    width: 3.5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.sendButton{
+    background-color: blue;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: .2rem;
+    font-size: 1.2rem;
+    margin-top: .2rem;
+    border: none;
+    cursor: pointer;
+}

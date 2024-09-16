@@ -1,0 +1,41 @@
+.singleBill-ui{
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.figures{
+width: 20rem;
+
+}
+.table-rol{
+    border: black solid .1rem;
+}
+.price{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20rem;
+}
+.print-goback-remove{
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.btn-print-goback-remove{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    height: 2rem;
+    background-image: none;
+}
+body{
+    background-image: none;
+}

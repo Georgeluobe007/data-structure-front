@@ -1,0 +1,24 @@
+.setStaffs{
+    display: flex;
+    flex-direction: column;
+     
+}
+.staff_info{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    
+}
+
+.surname-left{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+
+div p{
+    padding: 0;
+    margin: 0;
+}

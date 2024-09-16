@@ -1,0 +1,72 @@
+.shareItem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.shareTable{
+    width: 35rem;
+    
+}
+.left-side{
+    border-bottom: black solid .1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+.right-side{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.right-side-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.down-left-side{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ 
+}
+.down-right-side{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.down-right-side    {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5rem; 
+}
+.totalTables{
+    width: 25rem; 
+}
+.table-remainder{
+    width: 20rem;
+}
+.item-list{
+ margin-left: 3rem;
+}
+.list-item{
+    list-style-type: square
+
+}
+.sendTo{
+    cursor: pointer;
+}

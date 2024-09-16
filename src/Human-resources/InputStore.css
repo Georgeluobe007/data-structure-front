@@ -1,0 +1,254 @@
+.store-page{
+    background-color: transparent;
+     height: 100vh;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
+
+.input-store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.store-position{
+  
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    display: flex;
+    width: 25rem;
+    height: 7rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.select-drink{
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.select-create{
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    margin-left: 1rem;
+}
+.btn-store{
+    width: 7rem;
+    height: 2rem;
+    background-color: blue;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    /* font-size: 1.2rem; */
+    margin-left: auto;
+    cursor: pointer;
+}
+.remove{
+    width: 7rem;
+    height: 2rem;
+    background-color: blue; 
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    /* font-size: 1rem; */
+    cursor: pointer;
+}
+/* ////////////////////////////////////////////////////////////////// */
+.starts{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+}
+.human-resources{
+    /* height: 50vh; */
+    width: 100vw;
+    border: black 0.1rem solid;
+    border-top: none;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: row;
+}
+.add-item-btn{
+ margin-left: auto;
+ margin-right: 2rem;
+ margin-top: 1rem;
+ cursor: pointer;
+ width: 7rem;
+ height: 2rem;
+ background-color: blue; 
+ border: none;
+ border-radius: 0.5rem;
+ color: white;
+
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+   
+  }
+  .table-head{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .table-down{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+ 
+  }
+  .barman-kitchen{
+    /* height: 50vh; */
+    width: 100vw;
+    border: black 0.1rem solid; 
+    border-bottom: none;
+    
+    display: flex;
+    flex-direction: row;
+}
+/* ///////////////////Send To /////////////////////////////////////////// */
+.barman-kitchen{
+    width: 100vw;
+    border: black 0.1rem solid;
+    border-top: none;
+    border-bottom: none;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: row;
+}
+#customer{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 50%;  
+}
+.office-space{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.office-space2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#customer-remender{ 
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 70%;
+}
+.table-head{
+    width: 20rem;
+    height: 2rem;
+}
+.table-head-1{
+    width: 20rem;
+    height: 2rem;
+}
+.store-page1{
+    background-color: whitesmoke;
+    width: 20rem;
+    position: fixed;
+}
+#sentOffice{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 20rem;
+}
+.nameOfItem-btn{
+    width: 5rem;
+    margin: 0.1rem;
+    padding: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.officeName-btn{
+    width: 5rem;
+    margin: 0.1rem;
+    padding: 0;  
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+.sendOffice-btn{
+    width: 10rem;
+    height: 2rem; 
+    border-radius: 0.5rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+.editCreate{
+    cursor: pointer; 
+}
+.buttons-space{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: row;
+}
+.createEdited{
+    position: absolute;
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+    width: 10rem;
+    background-color: transparent
+}
+
+.editCreate-btn{
+  background-color: yellow;
+  color: blue;
+  width: 5rem; 
+  height: 2rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.deleteCreate-btn{
+    background-color: red;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+.deleteAllDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    position: absolute;
+}
+.deleteall{
+    background-color: blue;
+    color: white;
+    width: 25rem;
+
+}
+.letf-side-angle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

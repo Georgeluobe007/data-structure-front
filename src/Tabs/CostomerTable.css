@@ -1,0 +1,37 @@
+.costomer-contatiner{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.ui-costomer{
+    width: 30rem;
+    border: solid black .1rem;
+    }
+    .nameOfCostomer{
+       font-size: 1.3rem;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-transform: capitalize;
+       cursor: pointer;
+    }
+    .de-crease{
+        width: 3rem;
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        margin-right: .5rem;
+        cursor: pointer;
+    }
+    .in-crease{
+        width: 3rem;
+        background-color: blue;
+        border: none;
+        color: white;
+        margin-left: .5rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }

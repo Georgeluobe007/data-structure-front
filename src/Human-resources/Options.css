@@ -1,0 +1,35 @@
+.shape{
+background-color: transparent;
+position: fixed;
+margin-left: 35rem;
+
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.go-file{
+    width: 10rem;
+    height: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+.go-file:hover{
+ background-color: yellow;
+ border: none;
+}
+.remove-data{
+    width: 10rem;
+    height: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.remove-data:hover{
+    background-color: red;
+    border: none;  
+}

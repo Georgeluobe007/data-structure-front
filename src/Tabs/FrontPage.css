@@ -1,0 +1,92 @@
+.frontPageContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+}
+.right-side{
+    width: 40%;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+ .left-side{
+    width: 60%;
+    display: grid;
+    /* grid-template-columns:  repeat(4,1fr) ; */
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+   }
+.contatiner-box{
+    background-color: green;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.acknowledgePage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%; 
+}
+.itemTable{
+    width: 50%;
+}
+.acceptNot{
+    height: 2rem;
+    cursor: pointer;
+}
+.accepted{
+    height: 2rem; 
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.tableName{
+    margin-top: auto;
+}
+.table-input{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+}
+.table-btn{
+    width: 5rem;
+    height: 2.4rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.showTable-container{
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+.showMyTable{
+    background-color: blue;
+    color: white;
+    height: 2rem;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

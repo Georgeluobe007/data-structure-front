@@ -1,0 +1,21 @@
+.iportant-notics{
+    position: absolute;
+    background-color: red;
+    width: 10rem;
+}
+.waring-text{
+   
+}
+.back-btn{
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+}
+.qust-btn{
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}

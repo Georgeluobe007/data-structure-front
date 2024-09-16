@@ -1,0 +1,152 @@
+
+.item-price{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+.get-photo{
+    width: 70%; 
+}
+.sent-photo{
+    width: 30%;
+   
+    margin-bottom: auto;
+}
+.regTab{
+
+margin-left: 5rem;
+}
+.inputForm{
+    width: 15rem;
+    height: 2rem;
+    margin: 0.1rem;
+    outline: none;
+}
+.formInput{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.price-div{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    margin-right: 2rem;
+}
+
+.officeName{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;  
+   
+}
+.officeDrink{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;      
+}
+.office-button{
+    margin-top: .5rem;
+    height: 1.5rem;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.office-button2{
+    
+    height: 2rem;
+    margin: .1rem;
+    text-transform: capitalize;
+    border: none;
+    background-color: blue;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.drink-button{
+    margin-top: .5rem;
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer; 
+}
+.inputfor-price{
+    width: 5rem;
+    outline: none;
+}
+.form-submit-btn{
+    width: 5rem;
+    margin-top: .2rem;
+    height: 1.5rem;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer; 
+}
+.container{
+
+}
+.differentiateName{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.allDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.button-div-p-button{
+    width: 10rem;
+     
+ }
+.name-of-item{
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.2rem; 
+}
+.editPrice-editButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.EditPrice{
+    margin-left: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-right: .3rem;
+}
+.gridWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.addAmountProduct{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

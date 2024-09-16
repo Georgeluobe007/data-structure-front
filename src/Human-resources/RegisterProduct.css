@@ -1,0 +1,57 @@
+.product-reg{
+    position: absolute;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.reg-item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    
+}
+.label-reg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+   
+}
+.input-reg{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+}
+.reg-input{
+    margin-right: auto;
+    margin-top: .5rem;
+    outline: none;
+}
+.reg-input-2{
+    margin-right: auto;
+    width: 5rem;
+    margin-top: .5rem;
+    outline: none;
+}
+.labels{
+    margin-left: auto;
+    margin-top: .5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.set-product-btn{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}

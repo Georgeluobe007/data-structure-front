@@ -1,0 +1,73 @@
+.waitress-page{
+    position: absolute;
+    background-color: white;
+}
+.nameOfItem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 5rem;
+    cursor: pointer;
+    color: white;
+    margin-top: .2rem;
+    border: none;
+    padding-bottom: .3rem;
+    border-radius: .3rem;
+}
+.nameOfItem:focus{
+    background-color: red;
+}
+.set-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 100%;
+}
+.control-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.myDrinksName{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: .7rem;
+    width: 50%;
+}
+.minus-btn{
+    width: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.plus-btn{
+    width: 2rem;
+    font-size: 1rem;  
+    cursor: pointer;
+}
+.counter{
+    color: white;
+}
+.send-item{
+    width: 5rem;
+    height: 2rem;
+    margin-top: .2rem;
+    border-radius: .2rem;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.message{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

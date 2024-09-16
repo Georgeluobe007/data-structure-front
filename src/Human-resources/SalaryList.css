@@ -1,0 +1,48 @@
+.salaryUI{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.salary{
+    margin-left: auto;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.surname{
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+.name{
+    text-transform: capitalize;
+}
+.deb-balance{
+    margin-left: auto;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+.default-btn{
+    width: 15rem;
+    height: 3rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.default-btn:hover{
+    background-color: green;
+}

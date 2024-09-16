@@ -1,0 +1,87 @@
+.componentHead{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.nameofoffice{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: brown;
+    padding-left: .5rem;
+    text-transform: capitalize;
+}
+.pageUI{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.waitterCheack{
+    width: 30rem;
+    border: solid black 0.1rem;
+    margin-left: .5rem;
+}
+.productPrice{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.drinkName-qnty{
+   padding-left: 1rem;
+  
+}
+.times{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    width: 15rem;
+}
+.property{
+   width: 13rem;
+}
+.property-quantity{
+ width: 1rem;  
+}
+.quanty-times{
+ width: 1rem; 
+}
+.sub-total{
+    margin-left: 1rem;
+    
+}
+
+
+
+
+
+
+/* .cheackSalesPage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.salesContainer{
+ margin-right: auto;
+ margin-left: 1rem;
+}
+.waitressTab{
+  margin-right: auto;
+  margin-left: 1rem;
+}
+.dataComBine{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+}
+.minus-button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+} */

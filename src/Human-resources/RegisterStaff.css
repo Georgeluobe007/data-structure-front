@@ -1,0 +1,127 @@
+
+.register{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+} 
+.reg-form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.circle{
+    height: 10rem;
+    width: 10rem;
+    border: solid black 0.1rem;
+    border-radius: 25rem;
+   
+}
+.camera{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 25rem;
+    
+}
+.twoFace{
+    width: 30rem;
+    height: 5rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    
+    width: 10rem;
+    height: 5rem;
+    
+}
+.surname-name{
+    padding-right: 12rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+     
+}
+.name{
+    padding-right: 12rem;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+.right{
+   
+    width: 20rem;
+    height: 5rem;
+}
+.surname{
+    padding-right: 8rem;
+    margin-top: 1rem; 
+    outline: none ; 
+    text-transform: capitalize;
+}
+.sexAgeSalary{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    height: 3rem;
+   
+}
+.div-age{
+    width:10rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.sex-div{
+    width:10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+.salary-div{
+    width:10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 2rem
+}
+.age{
+    width: 5rem;
+    outline: none ; 
+}
+.salary{
+    width: 5rem;
+    margin-left: 1rem;
+    outline: none ; 
+}
+.label-age{
+    margin-right: 2rem;
+}
+.sex-label{
+    margin-right: 1rem;
+}
+.btn{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+   border: none;
+   cursor: pointer;
+}
+.profile-pix{
+    display: none;
+}

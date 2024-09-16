@@ -1,0 +1,161 @@
+.singleData{
+   
+}
+.displeyUi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    font-size: 2rem;
+}
+
+.layOutDive{
+    font-size: 1rem; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.LeftSideLayout{
+width: 60%;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+
+}
+.d-reason{
+    margin-right: auto;
+    flex-direction: column;
+    display: flex;
+}
+.p-reason{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.p-reason1{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.p-amount{
+margin-left: auto;
+}
+.RightSideLayout{
+width: 40%;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+
+}
+
+.salary-space{
+    margin-left: auto; 
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.d-debit{
+    margin-right: auto; 
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   }
+.p-salary{
+   
+}
+.substract-btn{
+    height: 2.5rem;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.substract-btn:hover{
+    background-color: green;
+}
+.add-btn{
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;  
+}
+.add-btn:hover{
+    background-color: green;
+}
+/* .description{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} */
+.formdescription{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.input-amount{
+    width: 14.6rem;
+    outline: none;
+    margin-top: 1rem;
+}
+.debit-btn{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.uperCaseName{
+    text-transform: capitalize;
+}
+.desc-amount{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.des-heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row; 
+}
+.desP{
+    margin-right: 8rem;
+    font-size: 0.8rem;
+}
+.desValue{
+    margin-right: 8rem;
+    font-size: 0.8rem;
+}
+.desAmount{
+   
+    font-size: 0.8rem; 
+}
+.desF{
+    margin-left: 7rem;
+ 
+
+}
+.name{
+    text-transform: capitalize;
+  
+}
+.delete{
+    cursor: pointer;
+}
