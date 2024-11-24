@@ -17,7 +17,7 @@ function NavBar() {
   const {logTab,setLogTab} = useContext(ContextAuth)
  
   useEffect(() => {
-   axios.get("http://localhost:3004/getWeb",{
+   axios.get("http://192.168.67.253:3004/getWeb",{
     headers:{ 
       accessToken1:localStorage.getItem("token")
     }

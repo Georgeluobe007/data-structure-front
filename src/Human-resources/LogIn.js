@@ -19,7 +19,7 @@ function LogIn() {
     resolver:yupResolver(schma)
   })
   const mutationFn = (data) => {
-    const response = axios.post("http://localhost:3004/humanresouces",data);
+    const response = axios.post("http://192.168.67.253:3004/humanresouces",data);
     return response;
   }
   const mutation = useMutation({

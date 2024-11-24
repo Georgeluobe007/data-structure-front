@@ -19,7 +19,7 @@ function StartUo() {
   const [section,setSection] = useState(false)
 
   useEffect(() => {
-   axios.get("http://localhost:3004/getStore",{
+   axios.get("http://192.168.67.253:3004/getStore",{
     headers:{ 
       accessToken1:localStorage.getItem("token")
     }
@@ -28,7 +28,7 @@ function StartUo() {
      setGetAllItem(response.data)
     } 
    })
-   axios.get("http://localhost:3004/getRemender",{
+   axios.get("http://192.168.67.253:3004/getRemender",{
     headers:{
       accessToken1:localStorage.getItem("token")
     }
